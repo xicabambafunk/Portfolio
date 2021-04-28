@@ -1,45 +1,96 @@
 .jexica {
-  font-family: "Roboto", Helvetica, sans-serif;
-  font-size: 175px;
-  font-weight: bold;
-  padding-left: 45px;
-  padding-top: 15%;
+  font-family: 'Syne', sans-serif;
+  font-size: 130px;
+  font-weight: 700;
+  /* margin-left: 3%;
+  margin-top: 10px; */
   /* z-index: 10; */
-  position: absolute;
-  z-index: 1;
-  letter-spacing: 4px;
-  opacity: 95%;
+  /* position: absolute; */
+  /* z-index: 1;
+  letter-spacing: 4px; */
 }
 
-h4 {
+
+.jexica-block {
+
+}
+
+.fakeimg {
+  height: 200px;
+  background: #aaa;
+}
+
+
+a img {
+  display:none;
+  position: absolute;
+  margin-left: 25%;
+  top: 10%;
+  z-index: 3;
+}
+
+a:hover img {
+  display:block;
+}
+
+.work:link {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.work:visited {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.work:hover {
+  color: black;
+  background-color: yellow;
+  text-decoration: none;
+}
+
+.work:active {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.lead {
+  font-size: 35px;
+}
+
+
+/* h4 {
   font-family: "Roboto Mono", Helvetica;
   /* z-index: 10; */
-  position: absolute;
+  /* position: absolute;
   margin-top: 25px;
   margin-left: 10px;
   z-index: 1;
   font-style: light;
   font-size: 16px;
-}
+} */
 
-th {
+/* th {
   text-align: left;
   font-family: "Roboto Mono";
   z-index: 1;
-}
+} */
 
-td {
+/* td {
   font-family: "Roboto Mono";
   z-index: 1;
-}
+} */
 
-* {
+/* * {
   box-sizing: border-box;
   width: 100%;
-}
+} */
 
 /*4 column types for @media differences*/
-.column1,
+/* .column1,
 .column2,
 .column3,
 .column4 {
@@ -49,14 +100,14 @@ td {
   padding-left: 40px;
   padding-top: 15px;
 
-}
+} */
 
 /* Clear floats after the columns */
-.row:after {
+/* .row:after {
   content: "";
   display: table;
   clear: both;
-}
+} */
 
 @media only screen and (max-width: 1000px) {
   .column2,
@@ -66,11 +117,10 @@ td {
   }
   .jexica {
     font-size: 110px;
-    padding-top: 30%;
-    opacity: 85%;
-    color: white;
+    /* padding-top: 5%; */
+
     z-index: 1;
-    text-shadow: 1px 1px 10px black;
+
   }
   .column1 {
     color: white;
@@ -100,7 +150,7 @@ body {
   width: 100%;
   overflow-x: hidden;
   margin-left: -1px;
-  margin-top: -4px;
+  margin-top: -10px;
 }
 
 div.gallery {
@@ -141,7 +191,7 @@ div.desc {
   }
 } */
 
-@media only screen and (max-width: 800px) {
+/* @media only screen and (max-width: 800px) {
   .responsive {
     width: 100%;
   }
@@ -151,7 +201,7 @@ div.desc {
   .about {
     width: 100%;
   }
-}
+} */
 
 /* .clearfix:after {
   content: "";
