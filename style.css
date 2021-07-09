@@ -34,13 +34,13 @@ a:hover img {
 }
 
 .work:link {
-  color: yellow;
+  color: red;
   background-color: transparent;
   text-decoration: none;
 }
 
 .work:visited {
-  color: red;
+  color: gray;
   background-color: transparent;
   text-decoration: none;
 }
